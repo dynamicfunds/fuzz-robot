@@ -1,4 +1,0 @@
-/* ===================================================
- * Popover for DAS right sidebar
- * For Reference see:  
- * ===================================================*/$(function(){$("#example").popover()});$(function(){$("input, textarea").placeholder()});$("[rel=popover]").popover({trigger:"manual",animate:!1,placement:"bottom",offset:5,html:!0}).click(function(e){e.preventDefault();$("[rel=popover]").each(function(){$(this).popover("hide")});$(this).popover("show")});$(".close-popover").live("click",function(e){e.preventDefault();$("[rel=popover]").each(function(){$(this).popover("hide")})});
