@@ -1,0 +1,213 @@
+/*--------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------
+
+	Site Name: Dynamic Advisor Site
+	Site URI: http://advisor.dynamic.ca
+	Description: Dynamic Advisor Site styles
+	Author: Uri Grinwald
+	Version: 1.0.1
+
+
+
+-------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------
+Table of Content
+----------------
+	00. LESS MIXINS
+	01.	BODY STYLES
+	02.	HEADER STYLES
+	03.	NAV STYLES
+	04.	DAS CAROUSEL
+	05. FORM OVERIDES 
+  06. HEADINGS AND TYPOGRAPHY
+  07. UL LI
+		 
+		
+		
+--------------------------------------------------------------------------------------*/
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* ____________________________________________________________________________________
+                                    00. USEFUL MIXINS 
+   ____________________________________________________________________________________*/
+.box-border {
+  border: solid 1px #d3d4d4;
+}
+.box-border-dash {
+  border: dashed 1px #d3d4d4;
+}
+.box-border-dynTurquois {
+  border: solid 1px #34b5d0;
+}
+.box-border-dynTurquois-dash {
+  border: dashed 2px #34b5d0;
+}
+.border-bottom {
+  border-bottom: dashed 1px #d3d4d4;
+}
+/* ____________________________________________________________________________________
+                                    02. BODY STYLES 
+   ____________________________________________________________________________________*/
+body {
+  width: 940px;
+  margin: 0 auto;
+}
+/* ____________________________________________________________________________________
+                                    02. HEADER STYLES 
+   _____________________________________________________________________________________*/
+#header {
+  background: #ffffff url(../dasimg/background_header.png) no-repeat;
+  border-bottom: 2px solid #125687;
+  height: 93px;
+}
+#header h2 {
+  margin-top: -10px;
+}
+.logo {
+  background: url(../dasimg/dynfunds_logo.png) no-repeat 20px 0;
+  float: left;
+  margin-top: 25px;
+  padding: 0 2.1276595%;
+  /*20/940*/
+
+  width: 21.2765957%;
+  /*200/940*/
+
+  display: block;
+  text-indent: -9999px;
+  height: 40px;
+}
+#dasSearch {
+  margin-right: 10px;
+  float: right;
+  clear: right;
+}
+/* OVERWRITE FOR GLHYPICONS ON NAVIGATION*/
+.icon-chevron-right {
+  background-position: -456px -74px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .logo {
+    padding: 0 2.7624309%;
+    /*20/724*/
+  
+    width: 27.6243093%;
+    /*200/724*/
+  
+  }
+  #dasSearch {
+    margin-right: 10px;
+    float: right;
+    clear: right;
+  }
+}
+/* ____________________________________________________________________________________
+                                    03. NAV STYLES 
+   _____________________________________________________________________________________*/
+ul#navigation {
+  float: right;
+  font-size: 10.8px;
+}
+ul#navigation.breadcrumb li a {
+  color: #125687;
+  /*.transition(color 1s ease);*/
+
+}
+ul#navigation.breadcrumb li a:hover {
+  color: #125687;
+}
+ul#navigation.breadcrumb {
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+ul#navigation.breadcrumb li {
+  text-shadow: 0 0 0 #ffffff;
+  display: inline;
+  background: url(../dasimg/menupointer.png) 4px -2px no-repeat;
+  padding-left: 17px;
+}
+ul#navigation.breadcrumb > li > .divider {
+  color: #ffffff;
+}
+/* ____________________________________________________________________________________
+                                    04. DAS CAROUSEL 
+   _____________________________________________________________________________________*/
+#das-carousel {
+  background-color: #333;
+}
+.carousel-indicators li {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* ____________________________________________________________________________________
+                                    05. FORM STYLES 
+   _____________________________________________________________________________________*/
+.input-append input {
+  position: static;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(119, 184, 0, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(119, 184, 0, 0.8);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(119, 184, 0, 0.8);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(119, 184, 0, 0.8);
+}
+/* ____________________________________________________________________________________
+                                    06. TYPOGRAPY AND HEADINGS
+   _____________________________________________________________________________________*/
+.sectional-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+#newsfeeds h4 {
+  color: #34b5d0;
+}
+/* ____________________________________________________________________________________
+                                    07. UL & LI
+   _____________________________________________________________________________________*/
+/* #newsfeeds ul{
+   list-style-type: none;
+   } */

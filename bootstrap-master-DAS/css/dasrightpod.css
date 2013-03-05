@@ -1,0 +1,187 @@
+
+	/* Class added for Das-rightPod*/
+	.ie-unit-fix {
+		*height:10px;
+		*clear:both
+	}
+
+	.dasRightPod {
+		border: 1px solid #e1e1e1;
+		/*background: url(../img/bkg-gradient.gif) center bottom repeat-x #fff;*/
+	}
+
+	.dasRightPod h1{
+		background: #e1e1e1;
+		display: block;
+		font-weight: bold;
+		font-size: 13px;
+		color: #666666;
+		margin: 0 0 15px 0;
+		line-height: 0px;
+		padding: 12px 10px 12px 10px;
+		}
+
+	.dasRightPod  label, input, button, select, textarea {
+		font-size: 11px !important;
+		font-weight: normal;
+		line-height: 20px;
+		*margin-bottom: 10px !important;
+		color: #666;}
+
+	
+	form.findClient input {
+		margin-bottom:8px;
+		height:13px;
+		line-height:15px;
+	} 
+	
+	form.dasRightPod input {
+		line-height:15px;
+	}
+	
+	.dasRightPod  .controls {
+		*padding-left: 0px !important;
+		display: block;
+		margin-left: 2px;
+		}
+
+	.findClient .submitBtn button.btn {
+		margin-bottom: 15px;
+		margin-right: 3px;
+		float: right
+	}
+
+
+	.dasRightPod  .control-group  {
+		padding: 0 7px 0 7px;
+		margin-bottom: 15px !important;
+		}
+
+	.findClient .control-group  {
+		margin-bottom: 0px !important;
+		}
+
+	.dasRightPod  .control-group .checkbox{
+		padding: 0 10px 0 10px;
+		}
+
+	.dasRightPod  .control-group .checkboxGrey {
+		background-color: #F1F0EE
+	}
+
+	.dasRightPod  .radio input[type="radio"], .checkbox input[type="checkbox"] {
+		float: left;
+		margin-left: -6px;
+		margin-right: 10px;
+		}
+
+	.dasRightPod .control-label {
+		float: left;
+		width: 30%;
+		padding-top: 5px;
+		text-align: right;
+		}
+
+	.dasRightPod  .controls input[type="text"], input[type="password"], input[type="sin"] {
+		margin-top: -3px\0/;
+		width: 92%;
+		}
+
+	.dasRightPod 	.controls > .radio:first-child, .controls > .checkbox:first-child {
+		float: left;
+		padding-top: 5px;
+		}
+
+	/* Class added for Das-rightPod - emailAlerts*/
+	.emailAlerts h6 {
+		color: #125687;
+		margin-bottom: 12px;
+		padding: 0 10px;
+		font-size: 11px;
+		line-height: 13px;
+		
+	}
+
+	.input-append input[class*="subscribe"], .emailAlerts .input-append .uneditable-input[class*="subscribe"], .input-prepend input[class*="subscribe"] {
+		width: 58%;
+		height: 13px;
+		height: 13px \9;
+		height: 13px \0/;
+		font-size: 12px;
+		font-size: 10px\0/;
+		font-size: 10px\9;
+	
+	
+	}
+
+	.submitBtn button.btn {
+		margin-right: 3px;
+		float: right
+	}
+
+	/* Class added for Das-rightPod - Sales Team */
+	.salesTeam {
+		font-size: 11px;
+		color: #666;
+		line-height: 15px;
+
+	}
+
+	.salesTeam hr {
+		width: 90%;
+		margin:10px 0 10px 10px;
+	}
+
+	.center  {
+		text-align: center;
+		clear: both;
+		}
+
+	.salesTeam .thumbnail {
+		display: block;
+		padding: 0 10px 0 10px;
+		line-height: 20px;
+		/*height: 85px;*/
+		border: none;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+		-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+		box-shadow: none;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+		}
+
+	.salesTeam .thumbnail  img {
+		float: left;
+		display: block;
+		max-width: 100%;
+		margin-right: 8px;
+		padding-bottom: 10px;
+		
+		}
+
+	.salesTeam .thumbnail  h3 {	
+		font-size: 14px;
+		line-height: 16px;
+		margin: 0px;
+		color: #125687;
+		font-weight:bold;
+		}
+
+
+	.salesTeam .thumbnail  h4 {	
+		font-size: 11px;
+		font-weight: normal;
+		margin: 0px;
+		line-height: 14px;
+		color: #666;
+	}
+
+
+	.salesTeam .thumbnail > h4.bio {	
+		font-weight: bold
+	}
